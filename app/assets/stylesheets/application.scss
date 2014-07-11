@@ -11,9 +11,11 @@
  *= require_self
  *= require foundation_and_overrides
  *= require custom
+ *= require _settings 
 
  *= require_tree .
  */
 
 @import "foundation_and_overrides";
+@import "_settings";
 @import "custom";

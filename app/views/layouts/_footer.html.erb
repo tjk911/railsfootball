@@ -1,0 +1,10 @@
+    <%= javascript_include_tag "application" %>
+    <script type="text/javascript">
+    var s = skrollr.init({
+        forceHeight: false,
+        smoothScrolling: false,
+        mobileCheck: function() {
+            return false;
+        }
+    });
+    </script>
