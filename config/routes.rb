@@ -1,5 +1,5 @@
 Railsfootball::Application.routes.draw do
   resources :schools
-  get "static_pages/home"
-  get "static_pages/cover"
+  root 'static_pages#home'
+  match '/cover', to: 'static_pages#cover', via: 'get'
 end

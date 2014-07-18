@@ -153,3 +153,9 @@ body, html {
 	height: 100%;
 	min-height: 100%;
 }
+
+.fixed-custom{
+	position:fixed;
+	z-index: 99;
+	width:100%;
+}
